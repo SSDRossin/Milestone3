@@ -1,0 +1,19 @@
+<ion-view title="Details" id="page8">
+  <ion-content padding="true" class="has-header">
+    <div style="margin: 0px; line-height: 250px; background-color: rgb(232, 235, 239); text-align: center;">
+        <img ng-src="{{feed.imageURL}}" style="width:100%">
+    </div>
+    <h1 id="details-heading2" style="color:#000000;">{{feed.eventName}}</h1>
+    <div id="details-markdown5" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">{{feed.shortDescription}}
+       
+      </p>
+    </div>
+    <div id="Details-button-bar1" class="button-bar">
+      <button id="details-button4" class="button button-royal button-block" ng-click="register()">Register</button>
+      <button id="details-button5" class="button button-assertive button-block" ui-sref="tabsController.map()">Address</button>
+    </div>
+    
+  </ion-content>
+</ion-view>
+
